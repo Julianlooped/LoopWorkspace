@@ -42,7 +42,10 @@ jobs:
           dexcom_sage \
           dexcom_upload_readings \
           future_carbs_4h \
-          high_carb_limit
+          high_carb_limit \
+          algorithm_experiments \
+          2002 \
+          customtypeone_looppatches 
 
           # the final customization listed above CANNOT have a continuation character "\"
           # more customizations can be pasted after this line
