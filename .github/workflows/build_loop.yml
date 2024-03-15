@@ -41,23 +41,6 @@ jobs:
           omnipod_cage \
           dexcom_sage \
           dexcom_upload_readings \
-          future_carbs_4h \
-          high_carb_limit \
-          algorithm_experiments \
-          2002 \
-          customtypeone_looppatches 
-          # Customize Loop: Download and apply patches
-      - name: Customize Loop
-        run: | 
-
-          # The lines below add the customizations listed using the CustomizationSelect script
-          # The "\" is a continuation character 
-          #   the line following a "\" cannot be blank - that causes the Action to never complete
-          /bin/bash -c "$(curl -fsSL \
-          https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
-          omnipod_cage \
-          dexcom_sage \
-          dexcom_upload_readings \
           future_carbs_4h \      
           high_carb_limit \
           no_auth \
