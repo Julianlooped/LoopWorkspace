@@ -279,7 +279,6 @@ jobs:
          
           dexcom_upload_readings \
           future_carbs_4h \
-          low_carb_limit \
           high_carb_limit \
           no_auth \
           override_sens \
@@ -288,7 +287,6 @@ jobs:
           watch_title \
           2hlollipop \
           meal_days \
-          meal_week \
           2002 \
           basal_lock \
           live_activity
